@@ -1,0 +1,1 @@
+Generic presentational dumb components used within the entire app.

@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "target": "es5",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@testco/*": [
+                "src/*"
+            ]
+        },
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/types"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
